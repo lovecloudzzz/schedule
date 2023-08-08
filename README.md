@@ -4,4 +4,4 @@
 - React(TypeScript)
 - Vite
 - Tauri
-# [Скачать](https://github.com/lovecloudzzz/schedule/releases/tag/v1.0.0)
+# [Скачать](https://github.com/lovecloudzzz/schedule/releases/)
