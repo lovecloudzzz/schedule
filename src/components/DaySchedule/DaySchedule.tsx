@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './DaySchedule.module.sass';
-import {Card, CardInterface } from '../Card/Card';
+import {Card, CardInterface } from './Card/Card';
 
 interface DayScheduleProps {
     animes: CardInterface[];
