@@ -4,7 +4,7 @@ import { AnimeData } from "../components/WeekSchedule/WeekSchedule.tsx";
 export const sortData = (data: AnimeData[]): Record<string, CardInterface[]> => {
     const days: Record<string, CardInterface[]> = {};
     const currentDate = new Date();
-    const sevenDaysFromNow = new Date(currentDate.getTime() + 8 * 24 * 60 * 60 * 1000);
+    const sevenDaysFromNow = new Date(currentDate.getTime() + 7 * 24 * 60 * 60 * 1000);
 
     data.forEach((anime) => {
         const episodeDate = new Date(anime.next_episode_at);
