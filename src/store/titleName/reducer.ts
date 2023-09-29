@@ -12,7 +12,6 @@ const initialState: TitleNameState = {
 const titleNameReducer = (state = initialState, action: TitleNameActionTypes): TitleNameState => {
     switch (action.type) {
         case ADD_TITLE:
-            console.log(action.payload,state    )
             return {
                 ...state,
                 titleNames: [...state.titleNames, action.payload],

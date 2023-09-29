@@ -23,7 +23,6 @@ export const sortData = (data: AnimeData[]): Record<string, CardInterface[]> => 
             });
         }
     });
-    console.log(days)
     return days;
 };
 
